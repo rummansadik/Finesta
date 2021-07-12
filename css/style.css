@@ -1,9 +1,9 @@
-/* Full Body */
+/* --------------------------------- Full Body ---------------------------------*/
 * {
   font-family: "Montserrat", sans-serif;
 }
 
-/* Navbar Section*/
+/*--------------------------------- Navbar Section ---------------------------------*/
 .navbar button {
   margin: 0.7%;
 }
@@ -31,7 +31,7 @@ nav ul li a:hover {
   color: #ffffff !important;
 }
 
-/* Banner Section*/
+/*--------------------------------- Banner Section ---------------------------------*/
 .banner-contents {
   margin-top: 20%;
 }
@@ -49,7 +49,7 @@ nav ul li a:hover {
   background: #bce02b !important;
 }
 
-/* Content Section */
+/*--------------------------------- Content Section ---------------------------------*/
 .content {
   background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
     url("../images/Content-Background.jpg");
@@ -65,7 +65,7 @@ nav ul li a:hover {
   border-bottom: 3px solid #bce02b;
 }
 
-/* About Section */
+/*--------------------------------- About Section ---------------------------------*/
 .about {
   padding: 7% 0% 7% 0%;
 }
@@ -74,7 +74,10 @@ nav ul li a:hover {
   height: 240px;
 }
 
-/* Services Section */
+/*--------------------------------- Services Section ---------------------------------*/
+.services {
+  padding: 7% 0% 7% 0%;
+}
 .img-hover {
   position: relative;
   width: 50%;
@@ -113,28 +116,18 @@ nav ul li a:hover {
   text-align: center;
 }
 
-/* Blog Section */
-.choose:hover .choose-border {
-  border-bottom: 3px solid #bce02b;
+/*--------------------------------- Blog Section ---------------------------------*/
+.blogs {
+  padding: 7% 0% 7% 0%;
+}
+.blogs h3 {
+  color: #fff;
+}
+.blogs p {
+  color: #fff;
 }
 
-.choose-border {
-  border-bottom: 3px solid #fff;
-  width: 208px;
-}
-
-.choose ul {
-  list-style: none;
-}
-
-.choose ul li {
-  padding-bottom: 20px;
-}
-
-.choose ul li i {
-  color: #bce02b;
-}
-
+/*--------------------------------- Contact Section ---------------------------------*/
 .contact-border {
   border-bottom: 3px solid #fff;
   width: 160px;
@@ -171,23 +164,6 @@ nav ul li a:hover {
     position: relative;
     left: 25%;
   }
-  /* .overlay {
-    left: 79px;
-    height: 89.5%;
-    width: 69.2%;
-  } */
-  /* .overlay {
-    position: absolute;
-    top: 24px;
-    bottom: 0;
-    left: 14px;
-    right: 0;
-    height: 88%;
-    width: 91.2%;
-    opacity: 0;
-    transition: 0.5s ease;
-    background-color: #bce02b;
-  } */
 }
 
 /* Small devices (portrait tablets and large phones, 600px and up) */
@@ -199,11 +175,6 @@ nav ul li a:hover {
     position: relative;
     left: 25%;
   }
-  /* .overlay {
-    left: 79px;
-    height: 89.5%;
-    width: 69.2%;
-  } */
 }
 
 /* Medium devices (landscape tablets, 768px and up) */
