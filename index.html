@@ -38,7 +38,7 @@
 		<div class="collapse navbar-collapse" id="navbarNav">
 			<ul class="navbar-nav ml-auto ">
 				<li class="nav-item active">
-					<a class="nav-link" href="#home">Home</a>
+					<a class="nav-link smooth-scroll" href="#home">Home</a>
 				</li>
 				<li class="nav-item">
 					<a class="nav-link" href="#about">About</a>
@@ -57,52 +57,34 @@
 	</div>
 </nav>
 
-
-<div class="slider" id = "home">
-		<div class="container">
-			<div class="row">
-				<div class="col-lg-12">
-					<section id="demos">
-				      <div class="my-slide text-center">
-				        <div class="large-12 columns">
-				          <div class="owl-carousel owl-theme">
-				            <div>
-				              <h1 class="text-white">Professional <span style="color: #bce02b;">Design</span>, <br> With Responsive Template</h1>
-				              <p class="text-white">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do <br> eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
-				            </div>
-				            <div>
-				               <h1 class="text-white">Professional <span style="color: #bce02b;">Design</span>, <br> With Responsive Template</h1>
-				              <p class="text-white">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do <br> eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
-				            </div>
-				            <div>
-				               <h1 class="text-white">Professional <span style="color: #bce02b;">Design</span>, <br> With Responsive Template</h1>
-				              <p class="text-white">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do <br> eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
-				            </div>
-				            <div>
-				               <h1 class="text-white">Professional <span style="color: #bce02b;">Design</span>, <br> With Responsive Template</h1>
-				              <p class="text-white">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do <br> eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
-				            </div>
-				          </div>
-				          
-				          <script>
-				            $(document).ready(function() {
-				              $('.owl-carousel').owlCarousel({
-				                items: 1,
-				                margin: 10,
-				                loop:true,
-				                autoHeight: true,
-				                autoplay:true,
-							    autoplayTimeout:3000,
-							    autoplayHoverPause:true
-				              });
-				            })
-				          </script>
-				        </div>
-				      </div>
-				    </section>
+<!-- Banner Section -->
+<div class="banner" id = "home">
+	<div class="container">
+		<div class="row">
+			<div class="col-lg-12">
+				<div class="banner-contents text-center">
+					<div class="owl-carousel owl-theme">
+						<div>
+							<h1 class="text-white">Professional <span style="color: #bce02b;">Design</span>, <br> with Responsive <br>Template</h1>
+							<p class="text-white">We provide fully Professional Design <br> for Website, WordPress, Shopify or any other <br>CMS.</p>
+						</div>
+						<div>
+							<h1 class="text-white">Website <span style="color: #bce02b;">Design</span>, <br> With HTML, CSS, <br>Bootstrap</h1>
+							<p class="text-white">We provide Websites with HTML and CSS<br> styled with Bootstrap and animated with <br>JavaScript.</p>
+						</div>
+						<div>
+							<h1 class="text-white">Website <span style="color: #bce02b;">Design</span>, <br>in WordPress Custom <br>Themes</h1>
+							<p class="text-white">We provide WordPress Website as per <br>client's Requirements<br>with 100% Responsive facility.</p>
+						</div>
+						<div>
+							<h1 class="text-white">Web <span style="color: #bce02b;">Development</span>, <br> with Django or Flask <br>Framework</h1>
+							<p class="text-white">We provide Front-end with HTML and CSS<br>and Back-end with Django or Flask <br>Framework.</p>
+						</div>
+					</div>
 				</div>
 			</div>
 		</div>
+	</div>
 </div>
 
 <div class="big-bg">
@@ -260,5 +242,19 @@
 <!-- Popper Js -->
 <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
 
+
+<script>
+	$(document).ready(function() {
+		$('.owl-carousel').owlCarousel({
+			items: 1,
+			margin: 10,
+			loop:true,
+			autoHeight: true,
+			autoplay:true,
+			autoplayTimeout:3000,
+			autoplayHoverPause:true
+		});
+	})
+</script>
 </body>
 </html>
