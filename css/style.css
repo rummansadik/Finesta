@@ -52,9 +52,9 @@ nav ul li a:hover {
 /*--------------------------------- Content Section ---------------------------------*/
 .content {
   background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
-    url("../images/Content-Background.jpg");
-  background-repeat: no-repeat;
-  background-size: cover;
+    url("../images/423.jpg");
+  background-repeat: repeat;
+  background-size: 100%;
   background-position: center;
 }
 .line {
@@ -128,29 +128,19 @@ nav ul li a:hover {
 }
 
 /*--------------------------------- Contact Section ---------------------------------*/
-.contact-border {
-  border-bottom: 3px solid #fff;
-  width: 160px;
+.contact {
+  padding: 7% 0% 7% 0%;
 }
-
-.contact:hover .contact-border {
-  border-bottom: 3px solid #bce02b;
-}
-
-.contact i {
-  color: #bce02b;
-  /*margin-right: 20px;
-	margin-top: 15px;*/
-}
-
 .contact ul {
   list-style: none;
   color: #fff;
 }
 
-.big-footer {
-  background-color: #585858 !important;
-  color: #fff;
+/*--------------------------------- Footer Section ---------------------------------*/
+.footer {
+  background-color: black !important;
+  margin: 0px !important;
+  padding: 2% 0% 0.3% 0%;
 }
 
 /* --------------------------- Responsive Styles---------------------------- */
